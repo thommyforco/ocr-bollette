@@ -4,3 +4,4 @@ easyocr
 flask
 flask-cors
 opencv-python-headless
+gunicorn
