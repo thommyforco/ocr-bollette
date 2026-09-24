@@ -66,7 +66,7 @@ export class AppComponent {
     formData.append("file", file);
 
     try {
-      const response = await fetch(" https://ocr-bollette.onrender.com", {
+        const response = await fetch("https://ocr-bollette.onrender.com/api/estrai-testo", {
         method: "POST",
         body: formData
       });
